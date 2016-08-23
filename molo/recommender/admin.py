@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Genre, AgeRange, Occupation
 
-# Register your models here.
+admin.site.register(Genre)
+admin.site.register(AgeRange)
+admin.site.register(Occupation)
